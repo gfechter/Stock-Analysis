@@ -10,7 +10,7 @@ To analyze the stocks, a VBA script was developed. However, the script only anal
 ### Refactored VBA Script
 The VBA script was refactored to make the code more efficient. Originally, a nested for loop was used to move through each ticker array one stock at a time. The code was refactored to loop through the data one time and to collect all of the information rather than moving through each stock one at a time. 
 
-Refactored Code (Excerpt from refactored section)
+Refactored Section of Code
 
 ```
    '1a) Create a ticker Index and set to zero
